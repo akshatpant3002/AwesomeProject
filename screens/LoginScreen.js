@@ -52,6 +52,7 @@ const LoginScreen = (props) => {
     const callGetUsers = () => {axios.get('http://localhost:5000/api/goals/' + email).then((response) =>{ //pulls the email
             const myRepo = response.data;
             setGetPassword(myRepo);
+            //test
 
 
          });
